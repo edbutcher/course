@@ -1,8 +1,8 @@
 # Uses python3
 
 n = (input().split())
-a = int(n[0])
-b = int(n[1])
+a, b = int(n[0]), int(n[1])
+
 
 def gcd(a, b):
     while a != b:
